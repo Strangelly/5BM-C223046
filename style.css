@@ -1,0 +1,386 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(254, 254, 254);
+}
+.hero{
+    display: flex;
+    height: 700px;
+    background-color: #dc6a8323;
+}
+.main-txt{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    margin: 80px;
+    padding-top: 90px;
+    padding-left: 120px;
+    width: 36%;
+    height: 70%;
+    
+}
+.main-txt h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    font-style: normal;
+}
+.main-txt h3{
+    font-family: "Lato", sans-serif;
+    color: grey;
+    font-weight: 400;
+}
+img{
+    padding-top: 50px;
+    padding-left: 0px;
+    height: 93%;
+    width: 100%;
+}
+.btn-main{
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    height: 50px;
+    background: rgb(243, 154, 169);
+    border: .2rem solid var(--second-bg-color);
+    border-radius: .6rem;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.btn-main:hover{
+    color: pink;
+    background-color: whitesmoke;   
+}
+
+.flower-menu{
+    font-family: lato;
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.flower-menu h1{
+    color: black;
+    font-size: 40px;
+}
+
+.flower-menu h3{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 17px;
+}
+.flower-box{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    gap: 20px;
+}
+.card{
+    padding: 2px 16px 30px;
+    height: 400px;
+    width: 330px;
+    border-radius: 500px 500px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.img-1{
+    height: 380px;
+    width: 250px;
+}
+
+.img-2{
+    height: 85%;
+    width: 90%;
+}
+
+.img-txt{
+    font-family: "Lato", sans-serif;
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.del-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.pic{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 80px;
+    width: 74%;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    background-color: rgba(128, 128, 128, 0.082);
+
+}
+.pic-box{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 30px;
+}
+.pic1{
+    height: 70px;
+    width: 70px;
+    margin-left: 30%;
+}
+
+.pic2{
+    height: 70px;
+    width: 70px;
+    margin-left: 30%;
+}
+
+.pic3{
+    height: 70px;
+    width: 70px;
+    margin-left: 15%;
+}
+
+.del-font{
+    font-family: "Lato", sans-serif;
+    font-weight: 550;
+    color: rgb(75, 74, 74);
+}
+
+.deal-menu{
+    height: 500px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    background-color: #E554730D;
+}
+
+.deal-submenu{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.deal-txt{
+    line-height: 2.5;
+    margin: 110px;
+    padding-left: 100px;
+    justify-content: center;
+    padding-top: 50px;
+    text-align: center;
+    width: 37%;
+    height: 160px;
+}
+
+.deal-txt h3{
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 1.4;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.deal-img{
+    margin: 15px;
+    width: 260px;
+    height: 380px;
+}
+
+.deal-txt h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.btn-second{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    height: 50px;
+    color: white;
+    background: rgb(243, 154, 169);
+    border: .2rem solid var(--second-bg-color);
+    border-radius: .6rem;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.inst-menu{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.inst-txt{
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+
+.inst-txt h1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.inst-txt h3{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.inst-pic{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.rec-pic{
+    height: 300px;
+    width: 275px;
+}
+
+.final{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.final-menu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10%;
+    width: 700px;
+}
+
+.final-pic{
+    width: 1120px;
+    height: 360px;
+}
+
+.pic-txt{
+    text-align: center;
+    line-height: 1.8;   
+}
+
+.pic-txt h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.pic-txt h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+}
+
+input[type=text], select{
+    padding-left: 15px;
+    width: 550px;
+    height: 54px;
+    border-radius: .6rem;
+    border: .2rem solid var(--second-bg-color);
+    background: #FFF;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    font-family: "lato";
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    box-sizing: border-box;
+}
+
+.btn-final{
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 130px;
+    color: white;
+    background: #E55473;
+    border: .2rem solid var(--second-bg-color);
+    border-radius: .6rem;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-txt{
+    width: 40%;
+    justify-content: center;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.foot-txt h1{
+    display: flex;
+    justify-content: center;
+    color: #E55473;
+    font-family: "Lato";
+    font-size: 48px;
+    font-weight: 800;
+    
+}
+
+.foot-txt h3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.foot-txt h4{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
